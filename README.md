@@ -1,0 +1,2 @@
+# Examplem
+GUICreate(@ScriptName &amp; " Playlist editor", 500, 400, -1, -1, -1, 0x00000008) ;  $WS_EX_TOPMOST ;~ #RequireAdmin ConsoleWrite ("> ==> @SystemDir = " &amp; @SystemDir &amp; @CRLF)  AutoIt Version: 3.3.6.1 (stable)  Author:         Alexander Samuelsson AKA AdmiralAlkex HotKeySet("{Esc}", "_Exit")  $hGui = GUICreate("Gui Pause Button Example", 300, 80) $hPause = GUICtrlCreateButton("Pause", 120, 24, 60) GUISetState
